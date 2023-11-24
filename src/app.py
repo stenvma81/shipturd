@@ -1,22 +1,24 @@
 import pygame
 import sys
 import random
+import settings
+import utils.colors as colors
 
 # Initialize Pygame
 pygame.init()
 
 # Constants
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = settings.SCREEN_WIDTH, settings.SCREEN_HEIGHT
+FPS = settings.FPS
 PLAYER_SIZE = 40
 ENEMY_SIZE = 40
 PLAYER_SPEED = 2
 ACCELERATION = 0.2
 ENEMY_SPEED = 1
-FPS = 60
 
 # Colors
-WHITE = (255, 255, 255)
-RED = (255, 0, 0)
+WHITE = colors.WHITE
+RED = colors.RED
 
 # Create the screen
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
