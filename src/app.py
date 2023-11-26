@@ -1,6 +1,5 @@
 import pygame
 import sys
-import random
 from scenes.default_scene import default_scene
 import settings
 import utils.colors as colors
