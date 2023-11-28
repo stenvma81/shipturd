@@ -18,7 +18,7 @@ source your-virtualenv-name/bin/activate
 ...or in Windows CMD:
 
 ```bash
-./your-virtualenv-name/activate.bat
+./your-virtualenv-name/scripts/activate.bat
 ```
 
 Then navigate to /scr and install dependencies:
