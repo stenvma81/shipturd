@@ -11,7 +11,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 def game_start():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-
     default_scene(screen)
 
 game_start()
@@ -24,6 +23,5 @@ pygame.display.update()
 
 pygame.time.wait(2000)
 
-# Quit Pygame
 pygame.quit()
 sys.exit()

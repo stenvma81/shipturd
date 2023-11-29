@@ -8,7 +8,7 @@ def default_scene(screen):
     WIDTH, HEIGHT = settings.SCREEN_WIDTH, settings.SCREEN_HEIGHT
     PLAYER_SIZE = 40
     ENEMY_SIZE = 40
-    PLAYER_SPEED = 2
+    PLAYER_SPEED = 3
     ACCELERATION = 0.2
     ENEMY_SPEED = 1
     FPS = settings.FPS
